@@ -24,3 +24,6 @@ def fizzbuzz():
         elif i % 5 == 0:
             print("Buzz")
         else: print(i)
+        i += 1
+
+fizzbuzz()
